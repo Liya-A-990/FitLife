@@ -34,8 +34,8 @@ except ValueError:
 print()
 print('Ваше имя -', user_name)
 print('Ваш возраст - ', user_age)
-print('Ваш вес', user_weight, 'кг')
-print('Ваш рост - ', user_height, 'м')
+print(f'Ваш вес - {user_weight} кг')
+print(f'Ваш рост - {user_height} м')
 
 # Рассчитываем ИМТ и округляем его до одного знака после точки
 bmi = user_weight / (user_height ** 2) 
