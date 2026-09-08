@@ -1,7 +1,5 @@
 # Проект FitLife - MVP версия 1.0
 # Начальное приветствие пользователя программой
-import sys
-sys.stdout.reconfigure(encoding='utf-8')
 print('Добро пожаловать в FitLife MVP!')
 print('Для начала давайте познакомимся.')
 
